@@ -1,5 +1,4 @@
-# protect test
-#
+# gitignore for idea setting repository
 # ignore the full folder
 /*
 !.gitignore
