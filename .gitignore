@@ -1,19 +1,6 @@
-# ignore the full folder
 /*
 !.gitignore
-
-# important sync files
 !keymaps/
 !colors/
 !codestyles/
 !templates/
-
-# scheme settings
-!colors.scheme.xml
-!code.style.schemes.xml
-
-# Misc
-!editor.xml
-!editor.codeinsight.xml
-!ide.general.xml
-!ui.lnf.xml
