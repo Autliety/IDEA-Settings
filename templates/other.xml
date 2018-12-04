@@ -1,0 +1,8 @@
+<templateSet group="other">
+  <template name="sop" value="System.out.println($END$);" description="Insert Java &quot;println&quot; method" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY_STATEMENT" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
