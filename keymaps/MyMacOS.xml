@@ -30,6 +30,9 @@
     <keyboard-shortcut first-keystroke="meta 5" />
   </action>
   <action id="ActivateHierarchyToolWindow" />
+  <action id="ActivateMavenToolWindow">
+    <keyboard-shortcut first-keystroke="meta m" />
+  </action>
   <action id="ActivateMessagesToolWindow" />
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="meta 1" />
@@ -369,9 +372,7 @@
     <keyboard-shortcut first-keystroke="shift meta h" />
   </action>
   <action id="MethodUp" />
-  <action id="MinimizeCurrentWindow">
-    <keyboard-shortcut first-keystroke="meta m" />
-  </action>
+  <action id="MinimizeCurrentWindow" />
   <action id="Move" />
   <action id="MoveElementLeft" />
   <action id="MoveElementRight" />
