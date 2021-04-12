@@ -6,7 +6,9 @@
       <option name="TAB_SIZE" value="2" />
     </value>
   </option>
+  <option name="LINE_SEPARATOR" value="&#10;" />
   <option name="RIGHT_MARGIN" value="100" />
+  <option name="SOFT_MARGINS" value="100" />
   <AndroidXmlCodeStyleSettings>
     <option name="USE_CUSTOM_SETTINGS" value="true" />
     <option name="LAYOUT_SETTINGS">
@@ -89,7 +91,6 @@
   </TypeScriptCodeStyleSettings>
   <XML>
     <option name="XML_ALIGN_ATTRIBUTES" value="false" />
-    <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
   <codeStyleSettings language="CSS">
     <indentOptions>
@@ -158,7 +159,6 @@
       <option name="INDENT_SIZE" value="2" />
       <option name="CONTINUATION_INDENT_SIZE" value="4" />
       <option name="TAB_SIZE" value="2" />
-      <option name="KEEP_INDENTS_ON_EMPTY_LINES" value="true" />
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="JSON">
