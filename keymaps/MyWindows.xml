@@ -76,6 +76,9 @@
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="alt w" />
   </action>
+  <action id="CloseOtherProjects">
+    <keyboard-shortcut first-keystroke="shift alt e" />
+  </action>
   <action id="CloseProject">
     <keyboard-shortcut first-keystroke="alt e" />
   </action>
@@ -147,6 +150,15 @@
   <action id="EditorBackSpace">
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
+  <action id="EditorChooseLookupItem">
+    <keyboard-shortcut first-keystroke="enter" />
+  </action>
+  <action id="EditorChooseLookupItemDot">
+    <keyboard-shortcut first-keystroke="period" />
+  </action>
+  <action id="EditorChooseLookupItemReplace">
+    <keyboard-shortcut first-keystroke="tab" />
+  </action>
   <action id="EditorCodeBlockEnd" />
   <action id="EditorCodeBlockEndWithSelection" />
   <action id="EditorCodeBlockStart" />
@@ -212,7 +224,9 @@
   <action id="EditorToggleCase" />
   <action id="EditorToggleColumnMode" />
   <action id="EditorUnSelectWord" />
-  <action id="EditorUnindentSelection" />
+  <action id="EditorUnindentSelection">
+    <keyboard-shortcut first-keystroke="shift tab" />
+  </action>
   <action id="EditorUp">
     <keyboard-shortcut first-keystroke="up" />
   </action>
@@ -367,6 +381,7 @@
   <action id="MethodDown" />
   <action id="MethodHierarchy">
     <keyboard-shortcut first-keystroke="alt y" />
+    <keyboard-shortcut first-keystroke="shift alt y" />
   </action>
   <action id="MethodUp" />
   <action id="MinimizeCurrentWindow">
