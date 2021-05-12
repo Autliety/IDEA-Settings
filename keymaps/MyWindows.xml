@@ -177,6 +177,9 @@
   <action id="EditorEnter">
     <keyboard-shortcut first-keystroke="enter" />
   </action>
+  <action id="EditorEscape">
+    <keyboard-shortcut first-keystroke="escape" />
+  </action>
   <action id="EditorHungryBackSpace">
     <keyboard-shortcut first-keystroke="shift back_space" />
   </action>
@@ -281,6 +284,9 @@
     <keyboard-shortcut first-keystroke="shift alt u" />
   </action>
   <action id="FindUsagesInFile" />
+  <action id="FocusEditor">
+    <keyboard-shortcut first-keystroke="escape" />
+  </action>
   <action id="ForceRunToCursor" />
   <action id="ForceStepInto" />
   <action id="ForceStepOver" />
