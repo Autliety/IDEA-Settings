@@ -5,6 +5,9 @@
   <action id="$Cut">
     <keyboard-shortcut first-keystroke="alt x" />
   </action>
+  <action id="$Delete">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
   <action id="$Paste">
     <keyboard-shortcut first-keystroke="alt v" />
   </action>
@@ -479,6 +482,7 @@
   </action>
   <action id="SafeDelete">
     <keyboard-shortcut first-keystroke="alt back_space" />
+    <keyboard-shortcut first-keystroke="delete" />
   </action>
   <action id="SaveAll">
     <keyboard-shortcut first-keystroke="alt s" />
@@ -571,4 +575,7 @@
   <action id="tasks.goto" />
   <action id="tasks.open.in.browser" />
   <action id="tasks.switch" />
+  <action id="编辑器Delete">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
 </keymap>
