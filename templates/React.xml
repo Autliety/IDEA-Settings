@@ -199,4 +199,9 @@
     <variable name="TM_FILENAME_BASE" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="fcc" value="import * as React from 'react';&#10;type Props = {&#10; $END$&#10;};&#10;type State = {&#10; $1$&#10;};&#10;export class $TM_FILENAME_BASE$ extends React.Component&lt;Props, State&gt;{&#10; render() {&#10;  return (&#10;   &lt;div&gt;&#10;    &#10;   &lt;/div&gt;&#10;  );&#10; };&#10;};" description="Creates a React component class with FlowTypes" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="TM_FILENAME_BASE" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
 </templateSet>
