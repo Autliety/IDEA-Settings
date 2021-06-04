@@ -20,7 +20,7 @@
   <action id="$Undo">
     <keyboard-shortcut first-keystroke="alt z" />
   </action>
-  <action id="ActivateDebugToolWindow">
+  <action id="ActivateEndpointsToolWindow">
     <keyboard-shortcut first-keystroke="alt 6" />
   </action>
   <action id="ActivateFavoritesToolWindow">
