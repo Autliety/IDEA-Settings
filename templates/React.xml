@@ -203,7 +203,7 @@
     <variable name="TM_FILENAME_BASE" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="usestate" value="const [$state$, set$setState$] = useState($initState$);$END$" description="useState hook" toReformat="true" toShortenFQNames="true">
+  <template name="uses" value="const [$state$, set$setState$] = useState($initState$);$END$" description="useState hook" toReformat="true" toShortenFQNames="true">
     <variable name="state" expression="" defaultValue="&quot;state&quot;" alwaysStopAt="true" />
     <variable name="setState" expression="capitalize(state)" defaultValue="" alwaysStopAt="true" />
     <variable name="initState" expression="" defaultValue="&quot;initState&quot;" alwaysStopAt="true" />
@@ -212,7 +212,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="useeffect" value="useEffect(() =&gt; {&#10;  return () =&gt; {&#10;    $effect$&#10;  };&#10;}, [$input$]);&#10;$END$" description="useEffect hook" toReformat="true" toShortenFQNames="true">
+  <template name="usee" value="useEffect(() =&gt; {&#10;  return () =&gt; {&#10;    $effect$&#10;  };&#10;}, [$input$]);&#10;$END$" description="useEffect hook" toReformat="true" toShortenFQNames="true">
     <variable name="effect" expression="" defaultValue="&quot;effect&quot;" alwaysStopAt="true" />
     <variable name="input" expression="" defaultValue="&quot;input&quot;" alwaysStopAt="true" />
     <context>
