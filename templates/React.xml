@@ -36,12 +36,6 @@
   <template name="cwr" value="componentWillReceiveProps(nextProps) {&#10;    $END$&#10;}&#10;" description="Invoked when a component is receiving new props. This method is not called for the initial render." toReformat="true" toShortenFQNames="true">
     <context />
   </template>
-  <template name="scu" value="&#10;shouldComponentUpdate(nextProps, nextState) {&#10;    $END$&#10;}&#10;" description="Invoked before rendering when new props or state are being received." toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JS_STATEMENT" value="true" />
-    </context>
-  </template>
   <template name="cwup" value="componentWillUpdate(nextProps, nextState) {&#10;    $END$&#10;}&#10;" description="Invoked immediately before rendering when new props or state are being received." toReformat="true" toShortenFQNames="true">
     <context />
   </template>
@@ -203,7 +197,7 @@
     <variable name="TM_FILENAME_BASE" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="uses" value="const [$state$, set$setState$] = useState($initState$);$END$" description="useState hook" toReformat="true" toShortenFQNames="true">
+  <template name="uses" value="const [$state$, set$setState$] = React.useState($initState$);$END$" description="useState hook" toReformat="true" toShortenFQNames="true">
     <variable name="state" expression="" defaultValue="&quot;state&quot;" alwaysStopAt="true" />
     <variable name="setState" expression="capitalize(state)" defaultValue="" alwaysStopAt="true" />
     <variable name="initState" expression="" defaultValue="&quot;initState&quot;" alwaysStopAt="true" />
@@ -212,9 +206,8 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="usee" value="useEffect(() =&gt; {&#10;  return () =&gt; {&#10;    $effect$&#10;  };&#10;}, [$input$]);&#10;$END$" description="useEffect hook" toReformat="true" toShortenFQNames="true">
-    <variable name="effect" expression="" defaultValue="&quot;effect&quot;" alwaysStopAt="true" />
-    <variable name="input" expression="" defaultValue="&quot;input&quot;" alwaysStopAt="true" />
+  <template name="usee" value="React.useEffect(() =&gt; {&#10;  $END$&#10;  return () =&gt; {&#10;  };&#10;}, [$deps$]);" description="useEffect hook" toReformat="true" toShortenFQNames="true">
+    <variable name="deps" expression="" defaultValue="&quot;deps&quot;" alwaysStopAt="true" />
     <context>
       <option name="JS_EXPRESSION" value="true" />
       <option name="JS_STATEMENT" value="true" />
