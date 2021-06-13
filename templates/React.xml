@@ -197,7 +197,7 @@
     <variable name="TM_FILENAME_BASE" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="uses" value="const [$state$, set$setState$] = React.useState($initState$);$END$" description="useState hook" toReformat="true" toShortenFQNames="true">
+  <template name="uses" value="let [$state$, set$setState$] = React.useState($initState$);$END$" description="useState hook" toReformat="true" toShortenFQNames="true">
     <variable name="state" expression="" defaultValue="&quot;state&quot;" alwaysStopAt="true" />
     <variable name="setState" expression="capitalize(state)" defaultValue="" alwaysStopAt="true" />
     <variable name="initState" expression="" defaultValue="&quot;initState&quot;" alwaysStopAt="true" />
