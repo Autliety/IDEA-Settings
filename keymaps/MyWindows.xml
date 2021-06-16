@@ -116,6 +116,9 @@
     <keyboard-shortcut first-keystroke="f10" />
   </action>
   <action id="Console.History.Browse" />
+  <action id="Console.Jdbc.Execute.2">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
   <action id="ConvertJavaToKotlin" />
   <action id="CopyElement" />
   <action id="CopyPaths">
@@ -397,7 +400,6 @@
   <action id="Mvc.RunTarget" />
   <action id="NavBar-navigate" />
   <action id="NewElement">
-    <keyboard-shortcut first-keystroke="ctrl enter" />
     <keyboard-shortcut first-keystroke="alt n" />
   </action>
   <action id="NewElementSamePlace">
