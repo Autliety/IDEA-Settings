@@ -548,6 +548,9 @@
     <keyboard-shortcut first-keystroke="f11" />
   </action>
   <action id="ToggleTemporaryLineBreakpoint" />
+  <action id="ToggleZenMode">
+    <keyboard-shortcut first-keystroke="shift f11" />
+  </action>
   <action id="TypeHierarchy">
     <keyboard-shortcut first-keystroke="alt y" />
   </action>
