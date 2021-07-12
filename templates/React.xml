@@ -206,7 +206,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="usee" value="React.useEffect(() =&gt; {&#10;  $END$&#10;  return () =&gt; {&#10;  };&#10;}, [$deps$]);" description="useEffect hook" toReformat="true" toShortenFQNames="true">
+  <template name="usee" value="React.useEffect(() =&gt; {&#10;  $END$&#10;  return () =&gt; { };&#10;}, [$deps$]);" description="useEffect hook" toReformat="true" toShortenFQNames="true">
     <variable name="deps" expression="" defaultValue="&quot;deps&quot;" alwaysStopAt="true" />
     <context>
       <option name="JS_EXPRESSION" value="true" />
