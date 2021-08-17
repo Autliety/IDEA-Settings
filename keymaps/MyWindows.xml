@@ -377,6 +377,9 @@
   <action id="IntroduceProperty" />
   <action id="IntroduceTypeAlias" />
   <action id="JumpToLastChange" />
+  <action id="MarkNotificationsAsRead">
+    <keyboard-shortcut first-keystroke="ctrl alt 9" />
+  </action>
   <action id="MaximizeToolWindow" />
   <action id="MethodDown" />
   <action id="MethodHierarchy">
