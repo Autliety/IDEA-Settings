@@ -349,7 +349,9 @@
     <mouse-shortcut keystroke="alt button1" />
     <keyboard-shortcut first-keystroke="alt b" />
   </action>
-  <action id="GotoFile" />
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="alt o" />
+  </action>
   <action id="GotoImplementation" />
   <action id="GotoLine" />
   <action id="GotoNextError">
@@ -422,9 +424,6 @@
   <action id="OpenModuleSettings" />
   <action id="OptimizeImports">
     <keyboard-shortcut first-keystroke="shift alt o" />
-  </action>
-  <action id="OverrideMethods">
-    <keyboard-shortcut first-keystroke="alt o" />
   </action>
   <action id="ParameterInfo">
     <keyboard-shortcut first-keystroke="alt p" />
