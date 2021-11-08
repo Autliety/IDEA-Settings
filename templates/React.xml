@@ -1,0 +1,22 @@
+<templateSet group="React">
+  <template name="uses" value="const [$state$, set$setState$] = React.useState($initState$);$END$" description="useState hook" toReformat="true" toShortenFQNames="true">
+    <variable name="state" expression="" defaultValue="&quot;state&quot;" alwaysStopAt="true" />
+    <variable name="setState" expression="capitalize(state)" defaultValue="" alwaysStopAt="true" />
+    <variable name="initState" expression="" defaultValue="&quot;initState&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="usee" value="React.useEffect(() =&gt; {&#10;  $END$&#10;  return () =&gt; { };&#10;}, [$deps$]);" description="useEffect hook" toReformat="true" toShortenFQNames="true">
+    <variable name="deps" expression="" defaultValue="&quot;deps&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="rsf" value="import React from 'react';&#10;&#10;export default function $TM_FILENAME_BASE$() {&#10;  return &lt;&gt;&#10;    $END$&#10;  &lt;/&gt;;&#10;}" description="Creates a stateless React component as a named function without PropTypes" toReformat="true" toShortenFQNames="true">
+    <variable name="TM_FILENAME_BASE" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>
