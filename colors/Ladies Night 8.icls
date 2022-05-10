@@ -306,11 +306,6 @@
         <option name="FOREGROUND" value="e8e2b7" />
       </value>
     </option>
-    <option name="DEFAULT_PARAMETER">
-      <value>
-        <option name="FOREGROUND" value="e0e2e4" />
-      </value>
-    </option>
     <option name="DEFAULT_PARENTHS">
       <value>
         <option name="FOREGROUND" value="ffffff" />
