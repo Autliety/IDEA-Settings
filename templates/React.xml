@@ -15,7 +15,8 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="rsf" value="import React from 'react';&#10;&#10;export default ($END$) =&gt; {&#10;  return &lt;&gt;&#10;    &#10;  &lt;/&gt;;&#10;}" description="Creates a stateless React component as a named function without PropTypes" toReformat="true" toShortenFQNames="true">
+  <template name="rsf" value="import React from 'react';&#10;&#10;export default function $FN$ ($END$) {&#10;  return &lt;&gt;&#10;    &#10;  &lt;/&gt;;&#10;}" description="Creates a stateless React component as a named function without PropTypes" toReformat="true" toShortenFQNames="true">
+    <variable name="FN" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
 </templateSet>
