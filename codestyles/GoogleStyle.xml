@@ -18,7 +18,6 @@
   </AndroidXmlCodeStyleSettings>
   <HTMLCodeStyleSettings>
     <option name="HTML_ALIGN_TEXT" value="true" />
-    <option name="HTML_SPACE_INSIDE_EMPTY_TAG" value="true" />
     <option name="HTML_NEWLINE_AFTER_LAST_ATTRIBUTE" value="When multiline" />
   </HTMLCodeStyleSettings>
   <JSCodeStyleSettings version="0">
@@ -113,7 +112,6 @@
   </TypeScriptCodeStyleSettings>
   <XML>
     <option name="XML_ALIGN_ATTRIBUTES" value="false" />
-    <option name="XML_SPACE_INSIDE_EMPTY_TAG" value="true" />
   </XML>
   <codeStyleSettings language="CSS">
     <indentOptions>
